@@ -3,43 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Cá Nhân</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>12A - Giới Thiệu Chung</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Chào mừng đến với trang cá nhân của tôi!</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">Giới thiệu</a></li>
-            <li><a href="#skills">Kỹ năng</a></li>
-            <li><a href="#contact">Liên hệ</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>Giới thiệu</h2>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaDBMJcrn_H6HHE22iXl5RZHyA3kPD7TWXUA&s">
-        </a>
-        <p>Tên của tôi là <strong>Vậyà ra làvậy</strong>. Tôi sinh ngày <strong>14/7</strong>. Đây là trang cá nhân của tôi, nơi bạn có thể tìm thấy thông tin về tôi và cách liên hệ với tôi.</p>
-    </section>
-    <section id="skills">
-        <h2>Kỹ năng</h2>
-        <ul>
-            <li>Kỹ năng 1: Ẩn thân trong đám đông</li>
-            <li>Kỹ năng 2: Chạy rất nhanh khi thấy người lạ</li>
-            <li>Kỹ năng 3: Đa nhân cách =))</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Liên hệ</h2>
-        <p>Để liên hệ với tôi, bạn có thể truy cập trang Facebook của tôi tại: <a href="https://www.facebook.com/profile.php?id=61558565157935" target="_blank">Facebook Profile</a></p>
-        <p>Hoặc xem kênh YouTube của tôi tại: <a href="https://www.youtube.com/@nguyenhuasang/featured" target="_blank">Kênh YouTube</a></p>
-        <p>Gửi email cho tôi tại: <a href="mailto:lan548213@gmail.com">lan548213@gmail.com</a></p>
-    </section>
-    <footer>
-        <p>Trang web này chỉ làm vì mục đích xamlul của tôi mà thôi =))</p>
-        <p><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DdQw4w9WgXcQ&psig=AOvVaw3x4IohDfCNyD9Vxktvxeuy&ust=1722650391346000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjK6vaa1YcDFQAAAAAdAAAAABAE" target="_blank">Hãy nhấn vào đây để được 10 tỷ</a></p>
-    </footer>
+
+    <h1 class="header-title">
+        12A - MẠNH MẼ, TỰ TIN, SẴN SÀNG BỨT PHÁ!
+    </h1>
+
+    <div class="navbar">
+        <a href="gioithieu.html" >GIỚI THIỆU CHUNG</a>
+        <a href="12nt.html">SƠ ĐỒ CẤU TRÚC</a>
+        <a href="danhsach.html">THÀNH VIÊN & MỤC TIÊU</a>
+        <a href="lienhe.html">LIÊN HỆ</a>
+    </div>
+
+    <div class="section-container">
+        <h2 class="section-title">
+            <span style="color: #ffc107;">I.</span> TẬP THỂ 12A - KHÁT VỌNG & ĐOÀN KẾT 👋
+        </h2>
+        <p class="intro-text">
+            Lớp <span class="highlight-bold">12A</span> niên khóa 2023-2026 là một <span class="highlight-bold">tập thể đoàn kết, năng động và đầy khát vọng</span> của Trường PT DTNT THPT Than Uyên.
+        </p>
+        <p class="intro-text">
+            Với phương châm <span style="font-style: italic;">"Học hết mình - Sống trách nhiệm - Vươn tới tương lai"</span>, 12A luôn khẳng định vị thế là một trong những điểm sáng của nhà trường về cả <span class="highlight-bold">thành tích học tập, nề nếp và hoạt động phong trào</span>.
+        </p>
+        <p class="intro-text">
+            Tập thể lớp là sự hội tụ của những học sinh đến từ nhiều địa phương, mang theo nét mộc mạc, chân thành nhưng không kém phần nhiệt huyết. Chính sự đa dạng văn hóa này đã tạo nên một môi trường học tập đầy màu sắc, nơi mỗi thành viên đều được tôn trọng, sẻ chia và cùng nhau trưởng thành, chuẩn bị hành trang vững chắc cho tương lai.
+        </p>
+        <p class="intro-text">
+            Dưới sự dẫn dắt tận tâm của Giáo viên chủ nhiệm, tập thể 12A đang nỗ lực hết mình trong năm học cuối cấp, tự tin hướng tới <span class="highlight-bold">kỳ thi tốt nghiệp THPT</span> với mục tiêu đạt kết quả cao nhất, tiếp tục viết nên trang tự hào cho thầy cô và nhà trường.
+        </p>
+    </div>
+    <div class="footer-info">
+        <p>Quản lí web: <span class="highlight-bold">Vàng Thị Phượng</span> - 0363339923</p>
+    </div>
+
 </body>
 </html>
