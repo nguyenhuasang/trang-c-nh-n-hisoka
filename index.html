@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12A - Giới Thiệu Chung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="background-music" loop hidden>
+        <source src="Bạc Phận (Remix).mp3" type="audio/mp3">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+
+    <h1 class="header-title">
+        12A - MẠNH MẼ, TỰ TIN, SẴN SÀNG BỨT PHÁ!
+    </h1>
+
+    <div class="navbar">
+        <a href="index.html" >GIỚI THIỆU CHUNG</a>
+        <a href="12nt.html">SƠ ĐỒ CẤU TRÚC</a>
+        <a href="danhsach.html">THÀNH VIÊN & MỤC TIÊU</a>
+        <a href="lienhe.html">LIÊN HỆ</a>
+    </div>
+
+    <div class="section-container">
+        <h2 class="section-title">
+            <span style="color: #ffc107;">1.</span> TẬP THỂ 12A - KHÁT VỌNG & ĐOÀN KẾT 👋
+        </h2>
+        <p class="intro-text">
+            Lớp <span class="highlight-bold">12A</span> niên khóa 2023-2026 là một <span class="highlight-bold">tập thể đoàn kết, năng động và đầy khát vọng</span> của Trường PT DTNT THPT Than Uyên.
+        </p>
+        <p class="intro-text">
+            Với phương châm <span style="font-style: italic;">"Học hết mình - Sống trách nhiệm - Vươn tới tương lai"</span>, 12A luôn khẳng định vị thế là một trong những điểm sáng của nhà trường về cả <span class="highlight-bold">thành tích học tập, nề nếp và hoạt động phong trào</span>.
+        </p>
+        <p class="intro-text">
+            Tập thể lớp là sự hội tụ của những học sinh đến từ nhiều địa phương, mang theo nét mộc mạc, chân thành nhưng không kém phần nhiệt huyết. Chính sự đa dạng văn hóa này đã tạo nên một môi trường học tập đầy màu sắc, nơi mỗi thành viên đều được tôn trọng, sẻ chia và cùng nhau trưởng thành, chuẩn bị hành trang vững chắc cho tương lai.
+        </p>
+        <p class="intro-text">
+            Dưới sự dẫn dắt tận tâm của Giáo viên chủ nhiệm, tập thể 12A đang nỗ lực hết mình trong năm học cuối cấp, tự tin hướng tới <span class="highlight-bold">kỳ thi tốt nghiệp THPT</span> với mục tiêu đạt kết quả cao nhất, tiếp tục viết nên trang tự hào cho thầy cô và nhà trường.
+        </p>
+    </div>
+    <div class="footer-info">
+        <p>Quản lí web: <span class="highlight-bold">Vàng Thị Phượng</span> - 0363339923</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-music');
+            var playPromise = audio.play();
+
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {}).catch(error => {
+                    audio.removeAttribute('hidden');
+                });
+            }
+        });
+
+        document.addEventListener('click', function() {
+            var audio = document.getElementById('background-music');
+            if (audio.paused) {
+                audio.play();
+            }
+        });
+    </script>
+    
+    <div class="snow-container">
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div>
+    </div>
+</body>
+</html>
