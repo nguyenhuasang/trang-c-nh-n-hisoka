@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12A - Thông Tin Liên Hệ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="background-music" loop hidden>
+        <source src="Hồng Nhan (Remix).mp3" type="audio/mp3">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+
+    <h1 class="header-title">
+        12A - THÔNG TIN LIÊN HỆ & DỰ ÁN
+    </h1>
+
+    <div class="navbar">
+        <a href="index.html" >GIỚI THIỆU CHUNG</a>
+        <a href="12nt.html">SƠ ĐỒ CẤU TRÚC</a>
+        <a href="danhsach.html">THÀNH VIÊN & MỤC TIÊU</a>
+        <a href="lienhe.html">LIÊN HỆ</a>
+    </div>
+
+    <div class="section-container">
+        <h2 class="section-title">
+            <span style="color: #ffc107;">4.</span> NHÓM PHỤ TRÁCH DỰ ÁN & THÔNG TIN LIÊN LẠC 📞
+        </h2>
+        <table>
+            <caption>Nhóm phụ trách dự án</caption>
+            <tr>
+                <th>STT</th><th>Họ và tên</th><th>Vai trò trong Dự án</th><th>Nhiệm vụ chính</th><th>Số điện thoại</th>
+            </tr>
+            <tr>
+                <td>1</td><td><span class="highlight-bold">Vàng Thị Phượng</span></td><td>Phó Tổ trưởng, Quản lí Web</td><td>Người viết code chính</td><td><span class="highlight-bold">0363339923</span></td>
+            </tr>
+            <tr>
+                <td>2</td><td>Nguyễn Trường Giang</td><td>Thành viên</td><td>Tìm kiếm thông tin</td><td>0325549820</td>
+            </tr>
+            <tr>
+                <td>3</td><td>Lường Thị Thủy</td><td>Tổ trưởng</td><td>Rà soát thông tin</td><td>0362312429</td>
+            </tr>
+            <tr>
+                <td>4</td><td>Lò Thị Kiều Loan</td><td>Thành viên</td><td>Hỗ trợ viết code</td><td>0965644025</td>
+            </tr>
+            <tr>
+                <td>5</td><td>Cứ Thị Ca</td><td>Thành viên</td><td>Tìm kiếm thông tin</td><td>0398689130</td>
+            </tr>
+            <tr>
+                <td>6</td><td>Vừ Thị Rai</td><td>Thành viên</td><td>Tìm kiếm thông tin</td><td>0845696182</td>
+            </tr>
+            <tr>
+                <td>7</td><td>Ngà Ngọc Hiếu</td><td>Thành viên</td><td>Rà soát thông tin</td><td>0353718782</td>
+            </tr>
+            <tr>
+                <td>8</td><td>Lường Văn Mạnh</td><td>Thành viên</td><td>Tìm kiếm thông tin</td><td>0866251759</td>
+            </tr>
+            <tr>
+                <td>9</td><td>Tòng Bảo Ngọc</td><td>Thành viên</td><td>Rà soát thông tin</td><td>0345495420</td>
+            </tr>
+            <tr>
+                <td>10</td><td>Cứ Thị Sung</td><td>Thành viên</td><td>Tìm kiếm thông tin</td><td>0365587920</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer-info">
+        <p>Quản lí web: <span class="highlight-bold">Vàng Thị Phượng</span> - 0363339923</p>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-music');
+            var playPromise = audio.play();
+
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {}).catch(error => {
+                    audio.removeAttribute('hidden');
+                });
+            }
+        });
+
+        document.addEventListener('click', function() {
+            var audio = document.getElementById('background-music');
+            if (audio.paused) {
+                audio.play();
+            }
+        });
+    </script>
+
+    <div class="snow-container">
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div>
+    </div>
+</body>
+</html>
