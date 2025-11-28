@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12A - Thành Viên & Mục Tiêu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="background-music" loop hidden>
+        <source src="Vi-Sao-Toi-La-Gay-Remix-Fony-Trung.mp3" type="audio/mp3">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+
+    <h1 class="header-title">
+        12A - THÀNH VIÊN & ĐỊNH HƯỚNG TƯƠNG LAI
+    </h1>
+
+    <div class="navbar">
+        <a href="gioithieu.html" >GIỚI THIỆU CHUNG</a>
+        <a href="12nt.html">SƠ ĐỒ CẤU TRÚC</a>
+        <a href="danhsach.html">THÀNH VIÊN & MỤC TIÊU</a>
+        <a href="lienhe.html">LIÊN HỆ</a>
+    </div>
+
+    <div class="section-container">
+        <h2 class="section-title">
+            <span style="color: #ffc107;">3.</span> SỞ TRƯỜNG & KHÁT VỌNG CÁ NHÂN 🌟
+        </h2>
+        <table>
+            <caption>Danh sách thành viên Tổ học tập</caption>
+            <tr>
+                <th>STT</th><th>Họ và tên</th><th>Sở trường/Năng khiếu</th><th>Nguyện vọng/Mục tiêu</th>
+            </tr>
+            <tr>
+                <td>1</td><td><span class="highlight-bold">Vàng Thị Phượng</span></td><td>Vật lý, Giao tiếp tốt</td><td>Đại học Sư phạm Hà Nội 2</td>
+            </tr>
+            <tr>
+                <td>2</td><td>Nguyễn Trường Giang</td><td>Chơi Cờ vua</td><td>Đại học Y Thái Nguyên</td>
+            </tr>
+            <tr>
+                <td>3</td><td>Lò Thị Kiều Loan</td><td>Giỏi Hóa học</td><td>Trở thành một nhà bác học</td>
+            </tr>
+            <tr>
+                <td>4</td><td>Lường Thị Thủy</td><td>Guitar</td><td>Trở thành một idol Kpop</td>
+            </tr>
+            <tr>
+                <td>5</td><td>Cứ Thị Ca</td><td>Hát, Thêu</td><td>Tốt nghiệp THPT</td>
+            </tr>
+            <tr>
+                <td>6</td><td>Vừ Thị Rai</td><td>Tiếng Trung</td><td>Tốt nghiệp THPT</td>
+            </tr>
+            <tr>
+                <td>7</td><td>Ngà Ngọc Hiếu</td><td>Thích nghi tốt, Thể thao</td><td>Du lịch thế giới</td>
+            </tr>
+            <tr>
+                <td>8</td><td>Lường Văn Mạnh</td><td>Toán, Hóa học</td><td>Kế toán</td>
+            </tr>
+            <tr>
+                <td>9</td><td>Tòng Bảo Ngọc</td><td>Hát</td><td>Thư kí Tổng thống</td>
+            </tr>
+            <tr>
+                <td>10</td><td>Cứ Thị Sung</td><td>Thêu</td><td>Nhà thiết kế thời trang dân tộc</td>
+            </tr>
+        </table>
+    </div>
+    <div class="footer-info">
+        <p>Quản lí web: <span class="highlight-bold">Vàng Thị Phượng</span> - 0363339923</p>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-music');
+            var playPromise = audio.play();
+
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {}).catch(error => {
+                    audio.removeAttribute('hidden');
+                });
+            }
+        });
+
+        document.addEventListener('click', function() {
+            var audio = document.getElementById('background-music');
+            if (audio.paused) {
+                audio.play();
+            }
+        });
+    </script>
+
+    <div class="snow-container">
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div>
+    </div>
+</body>
+</html>

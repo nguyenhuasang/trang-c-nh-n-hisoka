@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12A - Sơ Đồ Cấu Trúc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="background-music" loop hidden>
+        <source src="Sóng Gió (Orinn Remix).mp3" type="audio/mp3">
+        Trình duyệt của bạn không hỗ trợ thẻ audio.
+    </audio>
+
+    <h1 class="header-title">
+        12A - SƠ ĐỒ CẤU TRÚC LỚP
+    </h1>
+
+    <div class="navbar">
+        <a href="gioithieu.html" >GIỚI THIỆU CHUNG</a>
+        <a href="12nt.html">SƠ ĐỒ CẤU TRÚC</a>
+        <a href="danhsach.html">THÀNH VIÊN & MỤC TIÊU</a>
+        <a href="lienhe.html">LIÊN HỆ</a>
+    </div>
+
+    <div class="section-container">
+        <h2 class="section-title">
+            <span style="color: #ffc107;">2.</span> BAN LÃNH ĐẠO LỚP 🧑‍🏫
+        </h2>
+
+        <table>
+            <caption>Giáo Viên Chủ Nhiệm (GVCN) - Người Chèo Lái</caption>
+            <tr>
+                <th>Họ và tên</th><td> <span class="highlight-bold">Nguyễn Đức Vượng</span></td>
+            </tr>
+            <tr>
+                <th>Ngày tháng năm sinh</th><td>17/09/1988</td>
+            </tr>
+            <tr>
+                <th>Trình độ</th><td>Đại học</td>
+            </tr>
+            <tr>
+                <th>Chuyên môn</th><td>Toán học</td>
+            </tr>
+        </table>
+
+        <table>
+            <caption>Ban Cán Bộ Lớp & Chi Đoàn - Bộ Máy Điều Hành</caption>
+            <tr>
+                <th>STT</th><th>Chức vụ</th><th>Họ và tên</th><th>Ngày sinh</th>
+            </tr>
+            <tr>
+                <td>1</td><td><span class="highlight-bold">Lớp trưởng</span></td><td>Vàng Thị Phượng</td><td>10/01/2008</td>
+            </tr>
+            <tr>
+                <td>2</td><td><span class="highlight-bold">Bí thư Chi đoàn</span></td><td>Lò Thị Kim Ngân</td><td>01/08/2008</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tổ trưởng tổ 1</td>
+                <td>Lò Thị Hằng</td>
+                <td>06/07/2008</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tổ trưởng tổ 2</td>
+                <td>Lò Duy Hiếu</td>
+                <td>27/11/2008</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Tổ trưởng tổ 3</td>
+                <td>Lường Thị Thủy</td>
+                <td>17/02/2008</td>
+            </tr>
+            <tr>
+                <td>6</td> <td>Tổ trưởng tổ 4</td>
+                <td>Lò Minh Quang</td>
+                <td>06/07/2008</td>
+            </tr>
+            </table>
+    </div>
+    <div class="footer-info">
+        <p>Quản lí web: <span class="highlight-bold">Vàng Thị Phượng</span> - 0363339923</p>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('background-music');
+            var playPromise = audio.play();
+
+            if (playPromise !== undefined) {
+                playPromise.then(_ => {}).catch(error => {
+                    audio.removeAttribute('hidden');
+                });
+            }
+        });
+
+        document.addEventListener('click', function() {
+            var audio = document.getElementById('background-music');
+            if (audio.paused) {
+                audio.play();
+            }
+        });
+    </script>
+
+    <div class="snow-container">
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div><div class="snow-flake"></div><div class="snow-flake"></div>
+        <div class="snow-flake"></div>
+    </div>
+</body>
+</html>
